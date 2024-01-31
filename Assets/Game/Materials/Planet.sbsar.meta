@@ -1,0 +1,98 @@
+fileFormatVersion: 2
+guid: b0e1fde11ac139b49a34839e606bcbe8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 29
+  projectContext: 2
+  mGraphInstanceData:
+  - graphLabel: Planet
+    prototypeName: Planet
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Planet\" label=\"\" >\n  <presetinput identifier=\"$outputsize\"
+      uid=\"1497845212\" type=\"8\" value=\"10,10\" />\n </sbspreset>\n"
+    shaderName: Universal Render Pipeline/Unlit
+    materialProperties:
+      shader: {fileID: 4800000, guid: 650dd9526735d5b46b79224bc6e94025, type: 3}
+      shaderKeywords: ETC1_EXTERNAL_ALPHA
+      lightmapFlags: 4
+      enableInstancingVariants: 0
+      doubleSidedGI: 0
+      customRenderQueue: 3000
+      texEnvs:
+      - name: _BaseMap
+        texture: {fileID: 7159302877798228611, guid: b0e1fde11ac139b49a34839e606bcbe8, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _AlphaClip
+        float: 0
+      - name: _Blend
+        float: 0
+      - name: _Cull
+        float: 2
+      - name: _Cutoff
+        float: 0.5
+      - name: _DstBlend
+        float: 10
+      - name: _QueueOffset
+        float: 0
+      - name: _SampleGI
+        float: 0
+      - name: _SrcBlend
+        float: 5
+      - name: _Surface
+        float: 1
+      - name: _ZWrite
+        float: 0
+      colors:
+      - name: _BaseColor
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+    outputDescList:
+    - outputName: baseColor
+      identifier: basecolor
+      usageName: baseColor
+      channelStr: baseColor
+      label: Base Color
+      usage: 1
+      bImage: 1
+      bNumerical: 0
+      bLinear: 0
+    texturePackingList:
+    - targetName: baseColor
+      components:
+      - sourceName: baseColor
+        from: 0
+        to: 3
+    textureParameters:
+    - textureName: Planet - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList: []
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      textureWidth: 1024
+      textureHeight: 1024
+      textureFormatMode: 0
+      normalCompressed: 0
+      bGenerateOnLoad: 1
+    material: {fileID: -7920497051216364292, guid: b0e1fde11ac139b49a34839e606bcbe8, type: 3}
+    generatedTextures:
+    - {fileID: 7159302877798228611, guid: b0e1fde11ac139b49a34839e606bcbe8, type: 3}
